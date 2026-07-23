@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — never commit raw datasets or images
+*.png
+*.jpg
+*.jpeg
+*.dcm
+*.nii
+*.csv
+*.pth        # model checkpoints — too large for GitHub
+*.pt
+
+# Exceptions: commit the results CSVs but not image outputs
+!results/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
